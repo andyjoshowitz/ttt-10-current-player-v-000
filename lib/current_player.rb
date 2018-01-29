@@ -3,7 +3,6 @@ def turn_count(board)
   turn = 0
   board.each do |index| 
     turn += 1 if index == 'X' || index == 'O'
-    puts "#{turn}"
   end
   
   turn
